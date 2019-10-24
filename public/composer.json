@@ -1,0 +1,22 @@
+{
+  "name": "danielealessandra/bookstore",
+  "description": "Manages an online bookstore.",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Daniele Alessandra",
+      "email": "daniele.alessandra@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^1.25",
+    "twig/twig": "^2.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bookstore\\": "src"
+    }
+  }
+}

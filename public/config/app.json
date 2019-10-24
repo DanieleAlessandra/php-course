@@ -1,0 +1,10 @@
+{
+  "db": {
+    "host": "mysql",
+    "port": "3306",
+    "name": "bookstore",
+    "user": "dbuser",
+    "password": "dbpwd"
+  },
+  "log": "/app/log/bookstore.log"
+}
