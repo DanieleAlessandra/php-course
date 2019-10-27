@@ -1,6 +1,6 @@
 <?php
 
-namespace Bookstore\Tests\Domain\Customer;
+namespace Bookstore\Tests\Domain;
 
 
 use Bookstore\Domain\Customer;

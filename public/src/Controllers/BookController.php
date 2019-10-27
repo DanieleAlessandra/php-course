@@ -71,7 +71,7 @@ class BookController extends AbstractController {
 	}
 
 	public function borrow(int $bookId): string {
-		$bookModel = new BookModel($this->db);
+		$bookModel = $this->di->get('BookModel');
 
 		try {
 			$book = $bookModel->get($bookId);

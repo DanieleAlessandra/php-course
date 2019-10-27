@@ -12,14 +12,16 @@
   ],
   "require": {
     "monolog/monolog": "^1.25",
-    "twig/twig": "^2.12"
-  },
-  "autoload": {
-    "psr-4": {
-      "Bookstore\\": "src"
-    }
+    "twig/twig": "^2.12",
+    "ext-pdo": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bookstore\\Tests\\": "tests",
+      "Bookstore\\": "src"
+    }
   }
 }
