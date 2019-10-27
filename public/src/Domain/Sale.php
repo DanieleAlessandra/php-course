@@ -5,7 +5,7 @@ namespace Bookstore\Domain;
 class Sale {
 	private $id;
 	private $customer_id;
-	private $books;
+	private $books = [];
 	private $date;
 
 	public function setCustomerId(int $customerId) {
